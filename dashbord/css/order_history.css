@@ -1,0 +1,30 @@
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Table header styles */
+th {
+    background-color: #cec2c2;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Table cell styles */
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Alternating row background color */
+tr:nth-child(odd) {
+    background-color: #f0ebeb;
+}
+
+/* Label styles */
+label {
+    font-weight: bold;
+}
